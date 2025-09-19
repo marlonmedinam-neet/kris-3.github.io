@@ -1,18 +1,30 @@
 body {
-    margin: 0; /* Remove default body margin */
-    min-height: 100vh; /* Ensure body takes full viewport height */
+    margin: 0;
+    min-height: 100vh;
     display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
-    background-color: #f0f0f0; /* Optional: for visibility */
+    justify-content: center;
+    background-color: #f0f0f0;
+    align-items: center;
+    flex-direction: column;
 }
 
 .centered-div {
     width: 300px;
-    height: 150px;
+    height: 50px;
     display: flex; /* To center content *inside* the div if needed */
     justify-content: center;
     align-items: center;
     color: #333;
     font-family: sans-serif;
+}
+
+.response{
+    border-radius: 10px;
+    border-style: dotted;
+    padding: 15px;
+    margin: 10px;
+}
+
+.response:hover{
+    background-color: rgb(130, 255, 255);
 }
